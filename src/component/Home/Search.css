@@ -1,0 +1,78 @@
+#heading2{
+    margin-top: 4%;
+     margin-left: 9%;
+     font-size: 28px;
+     font-weight: bold;
+    
+ }
+ 
+ .box{
+    height:250px;
+    width:20%;
+    margin-top:3%;
+    margin-left:10%;
+    float:left;
+    box-shadow: 2px 2px 2px grey ;
+ }
+ .boxx{
+    height:250px;
+    width:20%;
+    margin-top:3%;
+    margin-left:3%;
+    float:left;
+    box-shadow: 2px 2px 2px grey ;
+ 
+  }
+ 
+ .inside{
+    height:188px;
+    width:100%;
+     
+    float:left;
+  }
+ 
+  .subhead{
+    margin-top: 2%;
+    margin-left: 12%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+ /* top brand */
+  .top{
+    margin-top: 24%;
+    margin-left: 9%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+ 
+  .circle{
+    height: 141px;
+    width: 12%;
+    margin-top: 3%;
+    margin-left: 11%;
+    float: left;
+    box-shadow: 2px 2px 2px grey ;
+ 
+  }
+  .circlee{
+    height: 141px;
+    width: 12%;
+    margin-top: 3%;
+    margin-left: 21%;
+    float: left;
+    box-shadow: 2px 2px 2px grey ;
+ 
+  }
+ 
+  .insidecircle{
+    width:100%;
+    height: 141px;
+ 
+  }
+
+  .outer{
+    /* border: 1px solid black; */
+    height: 141px;
+    width: 90%;
+    margin-left:5%;
+  }

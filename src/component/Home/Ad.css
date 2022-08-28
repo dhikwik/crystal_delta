@@ -1,0 +1,43 @@
+.id{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 375px;
+    width: 90%;
+    border: 1px solid  white;
+    
+    
+ }
+ .shop{
+    width: 50%;
+    height:375px;
+    margin-left:50%;
+    float:left;
+    margin-top:-20%;
+ }
+ .shope{
+   width: 50%;
+   height:375px;
+   margin-left:50%;
+   float:left;
+   margin-top:-20%;
+}
+ #heading{
+    font-weight: bold;
+    margin-left: 52px;
+    margin-top: 75px;
+    font-size: 30px;
+ }
+ .heading1{
+    font-weight: bold;
+    margin-left: 52px;
+    margin-top: 5px;
+    font-size: 40px;
+ }
+#now{
+   margin-left: 52px;
+   margin-top: 8px;
+}
+#noww{
+   margin-top: 8px;
+   margin-left:10px;
+}

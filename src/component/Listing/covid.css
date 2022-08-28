@@ -1,0 +1,29 @@
+.covid{
+    background-color:orange;
+    text-align:center;
+    height:40px;
+    margin-top:0%;
+
+}
+
+.filter{
+    border:1px solid black;
+    box-shadow: 1px 1px 2px grey;
+    margin-left: 1%;
+    margin-top: 2%;
+    height:500px;
+    width: 20%;
+    float:left;
+}
+
+.filside{
+    margin-left:10%;
+}
+
+#id{
+    border:1px solid black;
+    margin-left: 25%;
+    margin-top: 5%;
+    height:800px;
+    width: 70%;
+}
