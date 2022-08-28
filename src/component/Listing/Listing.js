@@ -10,15 +10,26 @@ class Listing extends Component {
     constructor(props){
         super(props);
         this.state={ 
-            ItemData:''
+            ItemData:'',
+            userItem:''
 
         };
+    }
+
+    proceed = () => {
+        console.log("Hi")
+        this.props.history.push(`/cart`)
     }
 
     render(){
         return(
             <>
             <Covid/>
+            <div class="scart">
+            <button type="button" class="btn btn-info" id="pcart" onClick={this.proceed}>View the Cart</button>
+            <img src="https://i.ibb.co/DQxxXMF/cart1.jpg" alt="pic" class="icart"  />
+            </div>
+
             <div class="filter">
                 <center><h1>Filters</h1></center>
                 <div class="filside">
@@ -36,7 +47,8 @@ class Listing extends Component {
                 <p><input type="checkbox" name="sani">     Rs2000- Rs5000</input></p> */}
                 </div>
                 </div>  
-            <List listData={this.state.ItemData}/> 
+            <List listData={this.state.ItemData} 
+             /> 
 
             </>
         )

@@ -5,6 +5,25 @@ import './list.css';
  
 const ListingDisplay = (props) =>{
 
+    const orderId = []
+
+    const addItem = (id) => {
+        // console.log(id)
+        orderId.push(id)
+        console.log(orderId)
+        sessionStorage.setItem('menu',orderId)
+
+     }
+
+    const removeItem = (id) => {
+        if(orderId.indexOf(id) > -1){
+            orderId.splice(orderId.indexOf(id),1)
+            console.log(orderId.indexOf(id))
+
+        }
+        sessionStorage.setItem('menu',orderId)
+    }
+
     const renderData = ({listData}) => {
         if(listData){
             if(listData.length > 0 ){
@@ -17,8 +36,8 @@ const ListingDisplay = (props) =>{
                               <h3 class="subhead2">{item.item_name}</h3>
                               <p class="rup">Rs.{item.cost}</p>
                               <span id="star">{item.rating}<span class="fa fa-star checked"></span></span>
-                               <button class="btn btn-success" id="cart" onClick={() => {this.addItem(item.item_id)}}>Add to Cart</button>
-                                <button class="btn btn-secondary" id="cart1">Buy Now</button> 
+                               <button class="btn btn-success" id="cart" onClick={() => {addItem(item.item_id)}}>Add to Cart</button>
+                                <button class="btn btn-secondary" id="cart1"  onClick={() => {removeItem(item.item_id)}}>Remove</button> 
                 
                         </div>
                     )
